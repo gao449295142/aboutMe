@@ -1,0 +1,410 @@
+*{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	border: none;
+}
+
+h2{
+	font: normal 50px '宋体';
+	margin-bottom: 50px;
+}
+
+p{
+	font: normal 20px '微软雅黑';
+}
+
+.section h2{
+	font-size: 50px;
+	font-family: "微软雅黑";
+	
+}
+
+.section p{
+	font-size: 18px;
+	font-family: "宋体";
+}
+
+#bgimg{
+	background: url('../img/page1_01.gif') no-repeat center;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*清除浮动*/
+.clearfix:after,
+.clearfix:before{
+	content: "";
+	display: table;
+}
+
+#fp-nav ul li a.active span,  
+.fp-slidesNav ul li a.active span {  
+    background: #fff;  
+}  
+#fp-nav ul li a span,  
+.fp-slidesNav ul li a span {  
+    border: 1px solid #fff; 
+}  
+
+/********************************************/
+
+
+/*page1样式*/
+.section.page1 .name-bg{
+	width: 250px;
+	height: 96px;
+	background-color: #ff3c3c;
+	margin: 0 auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	margin-bottom: 50px;
+}
+.section.page1 .name-bg h1{
+	font: normal 60px/96px '微软雅黑';
+	letter-spacing: 5px;
+}
+
+.section.page1 p{
+	color: #fff;
+	margin-bottom: 50px;
+	font: normal 22px '宋体';
+}
+
+.section.page1 span{
+
+	display: inline-block;
+	margin: 0 20px;
+	text-indent: 30px;
+	font: normal 20px '宋体';
+	background: url(../img/tag.png) left no-repeat;
+
+}
+
+/*page2样式*/
+.section.page2 .page2-ul{
+	text-align: center;
+	margin: 50px 0px;
+	overflow: hidden;
+}
+
+.section.page2 .page2-ul li{
+	display: inline-block;
+	margin: 0 55px;
+	width: 159px;
+	height: 159px;
+	background-color: #98e4de;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.section.page2 .page2-ul li span{
+	display: block;
+	padding-top: 20px;
+}
+
+.section.page2 p{
+	margin: 20px 0px;
+}
+
+.section.page2 .line{
+	width: 690px;
+	height: 2px;
+	background-color: #4cabbc;
+	margin: 50px auto;
+}
+
+/*page3样式*/
+.section.page3 .mySkill{
+	margin: 0 auto;
+	width: 870px;
+	overflow: hidden;
+	
+}
+
+.section.page3 .page3-line{
+	width: 870px;
+	height: 1px;
+	background-color: #fff;
+	margin: 20px auto;
+}
+
+.section.page3 .mySkill li{
+	width: 870px;
+	overflow: hidden;
+}
+.section.page3 .mySkill li a{
+	width: 124px;
+	height: 50px;
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px; 
+	border: 1px solid #fff;
+	margin: 10px 0px;
+	font: normal 18px/50px '微软雅黑'; 
+	float: left;
+	
+}
+
+.section.page3 .mySkill li span{
+	
+	width: 734px;
+	height: 23px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px; 
+	background-color: #416080;
+	float: right;
+	margin-top:25px;
+}
+
+.section.page3 .mySkill li span div{
+	width: 0;
+	height: 23px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px; 	
+}
+
+.section.page3 .mySkill li span .skill-1{
+	background-color: #ffa671;
+}
+
+.section.page3 .mySkill li span .skill-2{
+	background-color: #ffda5b;
+}
+
+.section.page3 .mySkill li span .skill-3{
+	background-color: #eeff63;
+}
+
+.section.page3 .mySkill li span .skill-4{
+	background-color: #b5ff55;
+}
+
+.section.page3 .mySkill li span .skill-5{
+	background-color: #68e4ff;
+}
+
+.section.page3 .mySkill li span .skill-6{
+	background-color: #57c2ff;
+}
+
+.section.page3 .mySkill li span .skill-7{
+	background-color: #5c60ff;
+}
+
+/*page4样式*/
+
+.section.page4 .work{
+	width: 850px;
+	height: 556px;
+	margin: 0 auto;
+	background: url(../img/workBg.png) center center no-repeat;
+	position: relative;
+	margin-top: 50px;
+	
+}
+
+.section.page4 .work div{
+	position: absolute;
+	width: 332px;
+	height: 122px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px; 
+	background-color: #737373;
+	background-color:rgba(174,122,67,0.8); 
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C8ae7a43,endColorstr=#C8ae7a43);
+	text-align: left;
+	overflow: hidden;
+	padding: 5px 10px;
+
+}
+
+.section.page4 .work .ihold{
+	top: 50px;
+	right: 0px;	 
+}
+
+.section.page4 .work .kema{
+	top: 195px;
+	left: 0px;	 
+}
+
+.section.page4 .work .tcxy{
+	bottom: 65px;
+	right: 0px;	 
+}
+
+.section.page4 .work div h1{
+	display: block;
+	font: normal 18px '微软雅黑';
+	color: #fff;
+	
+}
+
+.section.page4 .work div span{
+	
+	font: normal 14px '微软雅黑';
+	color: #fff;
+	
+}
+
+.section.page4 .work div p{
+	font: normal 14px '宋体';
+	color: #000;
+	text-indent: 28px;
+	padding-top: 10px;
+
+}
+
+/*page5样式*/
+
+.section.page5 .project{
+	width: 953px;
+	height: 392px;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+
+.section.page5 .project div{
+	position: absolute;
+	width: 453px;
+	height: 180px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px; 
+	background-color: #fff;
+	text-align: left;
+}
+
+.section.page5 .project div span{
+	display: block;
+	height: 30px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.section.page5 .project div span h1{
+	font: bold 30px/30px '微软雅黑';
+	color: #ff4141;
+	float: left;
+	
+}
+
+.section.page5 .project div span a{
+	float: right;
+	display: block;
+	padding: 5px 10px;
+	background-color: #cdcdcd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.section.page5 .project div span a:hover{
+	background-color: #f86b4f;
+}
+
+.section.page5 .project div span a img{
+	display: block;
+	width: 24px;
+	height: 17px;
+
+}
+
+
+.section.page5 .project div p{
+	font: 14px/25px '宋体';
+	color: #000;
+	padding: 5px 10px;
+	margin-top: 20px;
+	text-indent: 28px;
+
+}
+
+.section.page5 .project div.ahwmw{
+	top: 0;
+	left: 0;
+}
+
+.section.page5 .project div.wmcjgl{
+	top: 0;
+	right: 0;
+}
+
+.section.page5 .project div.xyxxcx{
+	bottom: 0;
+	left: 0;
+}
+
+.section.page5 .project div.slss{
+	bottom: 0;
+	right: 0;
+}
+
+
+/*page6样式*/
+
+.section.page6 p{
+	font: normal 20px '宋体';
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.section.page6 h3{
+	font: normal 24px '微软雅黑';
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.section.page6 div span{
+	display: inline-block;
+	text-indent: 30px;
+	padding: 5px;
+	margin: 0px 10px;
+	font: normal 16px '宋体';
+
+}
+
+.section.page6 div span.phone{
+	background: url(../img/phone.png) left center no-repeat;
+}
+
+.section.page6 div span.qq{
+	background: url(../img/qq.png) left center no-repeat;
+}
+
+.section.page6 .page6-line{
+	width: 520px;
+	height: 2px;
+	background-color: #5e647f;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+
